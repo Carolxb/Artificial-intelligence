@@ -1,0 +1,35 @@
+/* Name: Hanrui Liu
+ * NetID: hliu60
+ * Email: hliu60@u.rochester.edu
+ * Project 1
+ * 
+ * Name: Tianbo Liu
+ * NetID: tliu36
+ * Email: tliu36@u.rochester.edu
+ * Project 1
+ *
+ * Name: Xubin Lou
+ * NetID: xlou5
+ * Email: xlou5@u.rochester.edu
+ * Project 1
+ */
+
+ Team member: Tianbo Liu, Hanrui Liu, Xubin Lou
+ 
+ The code for Project 1 Reversi is in the file "Porject 1", which consists 3 .java files (Cell.java, CreatePlayBoard.java, Reversi.java)
+ The "Reversi.java" contains the main method, just run this file if you want to play the game;
+ the "CreatePlayBoard.java" contains all the methods we used;
+ the "Cell.java" is a class we built to store positions on the chess board.
+ 
+
+ How we build the project:
+ 1. read the pseudocode in textbook;
+ 2. initialize the game "CreatPlayBoard.java" 1-30
+ 4. write the "basic" functions "CreatPlayBoard.java" 30-688 & TEST & DEBUG.................
+ 5. change the pseudocode into java code & TEST & DEBUG...........................
+ 6. think the logic in building main method
+ 7. write the main method & TEST & DEBUG....................
+ 
+ For the Heuristic function, We think the four corners would have the most impact on the result of the game, because if a player has a chess piece on one corner, he has the opportunity to flip most of his opponent's chess pieces vertically, horizontally, and diagonally. Therefore, we set the score of four coners as 3 points. And same reason for the four outer sides, but they are less significant than the four corners, so we set the score of four outer sides as 2 points. Finally, we think the inner cells are not very essential while playing the game, so we set the score of inner cells as 1. 
+ 
+ This program can play the Reversi game with human without reporting any error (in the console or in the terminal). So it perfectly meets all the requirements.
